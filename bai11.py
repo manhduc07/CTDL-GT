@@ -33,4 +33,4 @@ def traverse(n, order):
             
 tree = binary_tree('A B C D E'.split())
 print("Cây:", tree)
-print("duyệt theo thứ tự trước:",list(traverse(tree, 'pre')))
+print("duyệt theo thứ tự sau:", list(traverse(tree, 'post')))
