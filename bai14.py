@@ -13,6 +13,6 @@ def selection_sort(nums):
 
 
 # Verify it works
-random_list_of_nums = [12, 8, 3, 20, 11]
+random_list_of_nums = [1, 5, 6, 20, 111]
 selection_sort(random_list_of_nums)
 print(random_list_of_nums)  
