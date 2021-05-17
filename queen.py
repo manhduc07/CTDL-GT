@@ -1,4 +1,4 @@
-"""The n queens puzzle."""
+#Bài toán 8 con Hậu
 class NQueens:
     """Generate all valid solutions for the n queens puzzle"""
     def __init__(self, size):
