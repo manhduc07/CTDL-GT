@@ -8,9 +8,3 @@ def thapHaNoi(n, toaMot, toaHai, toaBa):
         thapHaNoi(n-1,toaHai,toaMot, toaBa)
         
 thapHaNoi(4,'A','B','C')
-
-def ucln(a, b):
-    if (b == 0):
-        return a
-    return uscln(b, a % b)
-    ucln(10, 15)
